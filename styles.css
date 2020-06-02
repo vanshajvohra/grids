@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap');
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: Montserrat, Sans Serif;
+    margin: 0;
+    height: 100vh;
+}
+.bg-image {
+    background-image: url();
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1.2fr 1.5fr;
+    grid-template-rows: 1fr 4fr 3fr 2fr;
+    height: 100vh;
+}
+main h1 {
+    font-weight: bold;
+    display: block;
+}
+main {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    background-color: #FFFADF;
+}
+section.nom{
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    background-color: #ccae62;
+    text-align: center;
+    font-size: 1.5em;
+    color: white;
+    padding: 6em 2em 6em 2em;
+}
+section.yum {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    background-color: #333333;
+    text-align: center;
+    font-size: 1.5em;
+    color: white;
+    padding: 6em 2em 6em 2em;
+}
+section.diabetes {
+    grid-row-start: 4;
+    grid-row-end: 5;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    background-color: #202020;
+    text-align: center;
+    font-size: 1.5em;
+    color: white;
+    padding: 3em 2em 2em 2em;
+}
+header {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+section.candy {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 5;
+    background: url('img.jpg') no-repeat;
+    background-size: cover;
+}
+h1 {
+    padding: 2em 3em 0;
+}
+p {
+    padding: 0 5.5em 0;
+    line-height: 2em;
+    font-size: 1.1em;
+}
+a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    text-align: center;
+    padding: 2em 1.5em;
+    font-weight: bold;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+li {
+    float: left;
+}
+li a:hover {
+    background-color: #111;
+    color: white;
+  }
